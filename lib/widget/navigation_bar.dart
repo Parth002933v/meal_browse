@@ -35,7 +35,7 @@ class CustomNavigationBar extends StatelessWidget {
             padding: EdgeInsets.symmetric(
                 horizontal: mq.width * .03, vertical: mq.height * .015),
 
-            onTabChange: (value) {
+            onTabChange: (value ) {
               chageTab(value);
             },
 

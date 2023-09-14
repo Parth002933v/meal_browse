@@ -28,7 +28,7 @@ class HomeTab extends StatelessWidget {
         // GridViev to display grid
         child: GridView(
           //shrinkWrap: true,
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
             childAspectRatio: 1.5,
             crossAxisSpacing: 20,

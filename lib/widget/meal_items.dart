@@ -1,6 +1,3 @@
-import 'dart:developer';
-
-import 'package:awesome_icons/awesome_icons.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
@@ -40,7 +37,6 @@ class MealItem extends StatelessWidget {
       child: InkWell(
         onTap: () {
           onselectmeal(meal);
-
         },
         child: Stack(
           children: [

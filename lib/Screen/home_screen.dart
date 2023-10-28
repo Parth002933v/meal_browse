@@ -76,7 +76,7 @@ class HomeScreen extends ConsumerWidget {
             // Customize the animation curve when transitioning in
             switchInCurve: Curves.easeInOut,
 
-            // Customize the animation curve when transitioning out
+            // Customize the animation curve wh en transitioning out
             switchOutCurve: Curves.easeInOut,
 
             // Define the transition effect using transitionBuilder
